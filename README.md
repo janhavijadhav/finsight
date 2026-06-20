@@ -1,4 +1,4 @@
-# 📊 FinSight — Multi-Agent Financial Research System
+# 📊 FinSight - Multi-Agent Financial Research System
 
 FinSight is an AI-powered financial intelligence platform that analyzes public companies using SEC filings, knowledge graphs, vector search, and multi-agent reasoning.
 
@@ -49,7 +49,43 @@ Synthesis Agent
 Evaluation & Audit
        ▼
 Final Report
+## Architecture
 
+```text
+User Query
+    │
+    ▼
+Planning Agent
+    │
+ ┌──┴───────────┐
+ ▼              ▼
+RAG Agent   Research Agent
+ │              │
+ ▼              ▼
+ChromaDB    Web Search
+Knowledge Graph
+ └─────┬───────┘
+       ▼
+Synthesis Agent
+       ▼
+Evaluation & Audit
+       ▼
+Final Report
+```
+
+## Tech Stack
+
+| Component | Technology |
+|------------|------------|
+| LLM | Llama 3.3 70B via Groq |
+| Embeddings | Sentence Transformers |
+| Vector Database | ChromaDB |
+| Knowledge Graph | NetworkX |
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| NLP | spaCy |
+| Storage | SQLite |
+| Data Source | SEC EDGAR Filings |
 | Component | Technology |
 |------------|------------|
 | LLM | Llama 3.3 70B via Groq |
