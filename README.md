@@ -64,17 +64,6 @@ Final Report
 | NLP | spaCy |
 | Storage | SQLite |
 | Data Source | SEC EDGAR Filings |
-| Component | Technology |
-|------------|------------|
-| LLM | Llama 3.3 70B via Groq |
-| Embeddings | Sentence Transformers |
-| Vector Database | ChromaDB |
-| Knowledge Graph | NetworkX |
-| Backend | FastAPI |
-| Frontend | Streamlit |
-| NLP | spaCy |
-| Storage | SQLite |
-| Data Source | SEC EDGAR Filings |
 
 ---
 
