@@ -49,28 +49,6 @@ Synthesis Agent
 Evaluation & Audit
        ▼
 Final Report
-## Architecture
-
-```text
-User Query
-    │
-    ▼
-Planning Agent
-    │
- ┌──┴───────────┐
- ▼              ▼
-RAG Agent   Research Agent
- │              │
- ▼              ▼
-ChromaDB    Web Search
-Knowledge Graph
- └─────┬───────┘
-       ▼
-Synthesis Agent
-       ▼
-Evaluation & Audit
-       ▼
-Final Report
 ```
 
 ## Tech Stack
