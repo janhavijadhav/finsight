@@ -1,0 +1,12 @@
+sec-edgar-downloader
+pdfplumber
+sentence-transformers
+chromadb
+neo4j
+spacy
+python-dotenv
+tqdm
+anthropic
+fastapi
+uvicorn
+python-dotenv
