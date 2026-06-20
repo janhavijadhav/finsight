@@ -78,6 +78,22 @@ Final Report
 
 ---
 
+## Screenshots
+
+### Research Dashboard
+
+![Research Dashboard](screenshots/research.png)
+
+### Audit Log Dashboard
+
+![Audit Log Dashboard](screenshots/audit.png)
+
+### Analytics Dashboard
+
+![Analytics Dashboard](screenshots/analytics.png)
+
+---
+
 ## Skills Demonstrated
 
 - Retrieval-Augmented Generation (RAG)
