@@ -1,5 +1,7 @@
 # 📊 FinSight - Multi-Agent Financial Research System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-finsight006.streamlit.app-ff4b4b?style=for-the-badge&logo=streamlit)](https://finsight006.streamlit.app)
+
 FinSight is an AI-powered financial intelligence platform that analyzes public companies using SEC filings, knowledge graphs, vector search, and multi-agent reasoning.
 
 Users can ask natural language questions about a company and receive a structured, source-backed analyst report generated from SEC filings and recent public information.
@@ -113,8 +115,8 @@ Final Report
 
 - Earnings call transcript analysis
 - Portfolio-level risk dashboards
-- Additional company coverage
-- Cloud deployment and monitoring
+- Additional company coverage (currently 8 companies)
+- Fine-tuned model on financial text
 
 ---
 
