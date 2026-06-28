@@ -1,9 +1,10 @@
 venv/
 data/raw/
-data/chroma_db/
+# data/chroma_db/ — included for Streamlit Cloud deployment
 data/audit_log.db
 __pycache__/
 *.pyc
 .env
 .DS_Store
 *.db
+.streamlit/secrets.toml

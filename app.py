@@ -1,4 +1,10 @@
+import os
 import streamlit as st
+
+# Bridge Streamlit secrets → env vars so all submodules can use os.getenv()
+for _k, _v in st.secrets.items():
+    os.environ.setdefault(_k, str(_v))
+
 import sys
 from pathlib import Path
 import json
